@@ -5,27 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Портфолио frontend-разработчика Дмитрия Рычкова. Создание современных веб-приложений на React">
     <meta name="keywords" content="Портфолио, фронтенд, JavaScript, разработчик, React, верстка">
+    <link rel="stylesheet" href="styles.css">
     <title>Дмитрий Рычков | Портфолио Frontend-разработчика</title>
 </head>
 <body>
 
-    <img src="imgs/avatar.jpg" alt="Дмитрий Рычков" width="250">
-
-    <h1>Дмитрий Рычков</h1>
-
-    <hr>
-
-    <p>Я — <strong>QA Engineer</strong> в проекте <strong>MosHub</strong>, и моя работа — это как детективный квест: ищу баги, анализирую логику системы и помогаю делать продукт идеальным.</p>
-
-    <p>Живу в <em>Екатеринбурге</em> — городе, где сочетаются суровый уральский дух и современные технологии. Здесь есть всё: и мощная IT-сцена, и потрясающая природа буквально за городом.</p>
-
-    <hr>
-
-    <h4>Список социальных сетей:</h4>
-
-    <a href="https://t.me/user_dmi" target="_blank">Telegram</a>
-    |
-    <a href="https://www.linkedin.com/in/dmitriirychkov/" target="_blank">LinkedIn</a>
+    <div class="info">
+        <img src="imgs/avatar.jpg" alt="Дмитрий Рычков" width="250">
+        <div class="info-text">
+            <h1>Дмитрий Рычков</h1>
+            <hr>
+            <p>Я — <strong>QA Engineer</strong> в проекте <strong>MosHub</strong>, и моя работа — это как детективный квест: ищу баги, анализирую логику системы и помогаю делать продукт идеальным.</p>
+            <p>Живу в <em>Екатеринбурге</em> — городе, где сочетаются суровый уральский дух и современные технологии. Здесь есть всё: и мощная IT-сцена, и потрясающая природа буквально за городом.</p>
+            <hr>
+            <h4>Список социальных сетей:</h4>
+            <a href="https://t.me/user_dmi" target="_blank">Telegram</a>
+            |
+            <a href="https://www.linkedin.com/in/dmitriirychkov/" target="_blank">LinkedIn</a>
+        </div>
+    </div>
 
 
     <h2>Опыт работы</h2>
@@ -77,13 +75,13 @@
 
         <div>
             <label for="email">Ваш e-mail:</label>
-            <input type="email" id="email" placeholder="Введите email">
+            <input type="email" id="email" placeholder="Введите электронную почту">
         </div>
 
         <div>
-            <label for="message">Вашу сообщение:</label>
+            <label for="message">Ваше сообщение:</label>
             <br>
-            <textarea id="message" cols="30" rows="5" placeholder="Введите сщщбщение..."></textarea>
+            <textarea id="message" cols="30" rows="5" placeholder="Введите сообщение..."></textarea>
         </div>
 
         <input type="submit" value="Отправить">
