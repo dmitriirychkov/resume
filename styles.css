@@ -83,3 +83,16 @@ a:visited {
 .btn:hover {
     opacity: 0.8;
 }
+
+.table {
+    width: 100%;
+}
+
+.table td{
+    padding-bottom: 10%;
+}
+
+.table td:nth-child(2),
+.table td:nth-child(3) {
+    color: #86898f;
+}
