@@ -10,86 +10,88 @@
 </head>
 <body>
 
-    <div class="info">
-        <img src="imgs/avatar.jpg" alt="Дмитрий Рычков" width="250">
-        <div class="info-text">
-            <h1>Дмитрий Рычков</h1>
-            <hr>
-            <p>QA-инженер с опытом тестирования веб-приложений, осваивающий фронтенд-разработку. Понимаю продукт со стороны качества, но стремлюсь глубже — к созданию интерфейсов. Изучаю JavaScript, React и современные инструменты разработки, чтобы не только находить баги, но и писать чистый, эффективный код.</p>
-            <p>Умею смотреть на задачи под разными углами: от тестирования до реализации. В пет-проектах совмещаю обе роли, прокачивая навыки вёрстки и логики. Цель — переход в full-cycle разработку, где можно влиять на продукт от идеи до релиза.</p>
-            <hr>
-            <hr>
-            <h4>Список социальных сетей:</h4>
-            <a href="https://t.me/user_dmi" target="_blank">Telegram</a>
-            |
-            <a href="https://www.linkedin.com/in/dmitriirychkov/" target="_blank">LinkedIn</a>
+    <div class="container">
+        <div class="info">
+            <img src="imgs/avatar.jpg" alt="Дмитрий Рычков" class="avatar">
+            <div class="info-text">
+                <h1>Дмитрий Рычков</h1>
+                <hr>
+                <p>QA-инженер с опытом тестирования веб-приложений, осваивающий фронтенд-разработку. Понимаю продукт со стороны качества, но стремлюсь глубже — к созданию интерфейсов. Изучаю JavaScript, React и современные инструменты разработки, чтобы не только находить баги, но и писать чистый, эффективный код.</p>
+                <p>Умею смотреть на задачи под разными углами: от тестирования до реализации. В пет-проектах совмещаю обе роли, прокачивая навыки вёрстки и логики. Цель — переход в full-cycle разработку, где можно влиять на продукт от идеи до релиза.</p>
+                <hr>
+                <hr>
+                <h4>Список социальных сетей:</h4>
+                <a href="https://t.me/user_dmi" target="_blank">Telegram</a>
+                |
+                <a href="https://www.linkedin.com/in/dmitriirychkov/" target="_blank">LinkedIn</a>
+            </div>
         </div>
+
+        <div class="card by-green">
+            <h2>Опыт работы</h2>
+            <table width="600">
+                <thead>
+                    <tr>
+                        <th>Название</th>
+                        <th>Должность</th>
+                        <th>Год</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>ООО "АРГО СТУДИО"</td>
+                        <td>Старший инженер по тестированию</td>
+                        <td>2024 - по н.в.</td>
+                    </tr>
+                    <tr>
+                        <td>ООО "ЮЗТЕХ"</td>
+                        <td>Специалист по тестированию</td>
+                        <td>2023 - 2024</td>
+                    </tr>
+                    <tr>
+                        <td>ООО "СОФТ-Горизонт"</td>
+                        <td>Инженер - программист по тестированию ПО</td>
+                        <td>2020 - 2023</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="card by-yellow">
+            <h2>Мои хобби</h2>
+
+            <ol>
+                <li>Путешествия</li>
+                <li>Стрельба из оружия</li>
+                <li>Криптовалюты и блокчейн</li>
+                <li>Силовой спорт [Жимовичок]</li>
+                <li>Футбол</li>
+                <li>Изучение английского</li>
+            </ol>
+        </div>
+
+        <h2>Связаться со мной</h2>
+
+        <form action="/">
+            <div>
+                <label for="name">Ваше имя:</label>
+                <input type="text" id="name" placeholder="Введите имя">
+            </div>
+
+            <div>
+                <label for="email">Ваш e-mail:</label>
+                <input type="email" id="email" placeholder="Введите электронную почту">
+            </div>
+
+            <div>
+                <label for="message">Ваше сообщение:</label>
+                <br>
+                <textarea id="message" cols="30" rows="5" placeholder="Введите сообщение..."></textarea>
+            </div>
+
+            <input type="submit" value="Отправить">
+        </form>
     </div>
-
-    <div class="card by-green">
-        <h2>Опыт работы</h2>
-        <table width="600">
-            <thead>
-                <tr>
-                    <th>Название</th>
-                    <th>Должность</th>
-                    <th>Год</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>ООО "АРГО СТУДИО"</td>
-                    <td>Старший инженер по тестированию</td>
-                    <td>2024 - по н.в.</td>
-                </tr>
-                <tr>
-                    <td>ООО "ЮЗТЕХ"</td>
-                    <td>Специалист по тестированию</td>
-                    <td>2023 - 2024</td>
-                </tr>
-                <tr>
-                    <td>ООО "СОФТ-Горизонт"</td>
-                    <td>Инженер - программист по тестированию ПО</td>
-                    <td>2020 - 2023</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-
-    <div class="card by-yellow">
-        <h2>Мои хобби</h2>
-
-        <ol>
-            <li>Путешествия</li>
-            <li>Стрельба из оружия</li>
-            <li>Криптовалюты и блокчейн</li>
-            <li>Силовой спорт [Жимовичок]</li>
-            <li>Футбол</li>
-            <li>Изучение английского</li>
-        </ol>
-    </div>
-
-    <h2>Связаться со мной</h2>
-
-    <form action="/">
-        <div>
-            <label for="name">Ваше имя:</label>
-            <input type="text" id="name" placeholder="Введите имя">
-        </div>
-
-        <div>
-            <label for="email">Ваш e-mail:</label>
-            <input type="email" id="email" placeholder="Введите электронную почту">
-        </div>
-
-        <div>
-            <label for="message">Ваше сообщение:</label>
-            <br>
-            <textarea id="message" cols="30" rows="5" placeholder="Введите сообщение..."></textarea>
-        </div>
-
-        <input type="submit" value="Отправить">
-    </form>
-
 </body>
 </html>
+
