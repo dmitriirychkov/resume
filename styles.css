@@ -8,6 +8,23 @@ body {
     color: #0f141e;
 }
 
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: blue;
+}
+
+a:visited {
+    color: grey;
+}
+
 .container {
     max-width: 750px;
     margin: auto;
@@ -51,4 +68,18 @@ body {
 
 .by-green {
     background: #e5ffe7;
+}
+
+.btn {
+    background: #111;
+    padding: 15px 20px;
+    color: #fff;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    opacity: 0.8;
 }
